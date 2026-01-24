@@ -1,1 +1,25 @@
+# ---- Obsidian config ----
+
+# Ignore volatile, device-specific workspace layouts
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian plugin and theme code – do not track
+.obsidian/plugins/
+.obsidian/themes/
+
+# Workspace state
+.obsidian/workspace*
+.trash/
+
+# Keep core settings and plugins (do NOT ignore .obsidian/ itself)
+# If you prefer to ignore *all* Obsidian config, uncomment the next line
+# .obsidian/*
+
+# ---- Obsidian Git plugin metadata ----
+.obsidian-git-data
+
+# ---- OS / editor junk ----
 .DS_Store
+Thumbs.db
+desktop.ini
